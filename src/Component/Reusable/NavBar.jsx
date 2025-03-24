@@ -48,13 +48,13 @@ const changeMode =()=>{
             href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
-              display: { xs: 'none', md: 'flex', flexWrap: 'wrap' },
+              display: { xs: 'none', md: 'flex',  },
               fontFamily: 'monospace',
-              fontWeight: 700,
+              fontWeight: {xs : 400,md : 700},
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
-              marginRight : '350px',
+              marginRight: '150px',
             }}
           >
             Ghassen Ben Ali
@@ -109,6 +109,8 @@ const changeMode =()=>{
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
+              whiteSpace: { xs: 'normal', md: 'nowrap' },
+              wordBreak : {xs: 'break-word', md : 'normal'},
             }}
           >
             Ghassen Ben Ali

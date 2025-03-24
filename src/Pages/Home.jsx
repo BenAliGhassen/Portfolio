@@ -1,9 +1,16 @@
-import React from 'react'
-
+import '../Styles/HomeStyle/ProfileSection.css'
+import Profile from '../Component/OneUse/Profile';
+import Education from '../Component/OneUse/Education';
 function Home() {
+
+
+  
+
+
   return (
-    <div >
-      <h1>Ghassen Ben Ali</h1>
+    <div>
+     <Profile/>
+     <Education/>
     </div>
   )
 }

@@ -1,7 +1,8 @@
 .light {
-    border: none;       
+    border: none; 
+    background-color: white;      
     border-top: 2px solid white;
-    height: 1px;          
+    height: 4px;          
     margin: 0;            
   }
   
