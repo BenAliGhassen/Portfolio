@@ -18,11 +18,7 @@ useEffect(() => {
     <div className={ mode === 'light' ? 'lightgen' : 'darkgen'} >
        <NavBar setMode={setMode} mode={mode}/>
        <div >
-
       <Home/>
-
-
-
       </div>
     </div>
   );

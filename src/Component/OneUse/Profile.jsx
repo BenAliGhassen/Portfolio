@@ -3,6 +3,8 @@ import photo from '../../images/Photo_Pro.png'
 import photo2 from '../../images/Photo_Prohf.png'
 import Image from 'react-bootstrap/Image';
 import '../../Styles/HomeStyle/ProfileSection.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Profile() {
 
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -14,6 +16,15 @@ function Profile() {
 
     window.addEventListener('resize', handleResize);
 
+
+    AOS.init({
+      duration: 1000, 
+      once: true, 
+      easing: 'ease-in-out', 
+    });
+
+
+
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -21,9 +32,8 @@ function Profile() {
 
   
 
-
   return (
-    <div className='container mt-5 ProfileText ProfileStyle'>
+    <div className='container mt-5 ProfileText ProfileStyle' data-aos="fade-right">
       {screenWidth >= 768 ? <Image src={photo} alt='me' fluid/> : <Image src={photo2} alt='me' fluid roundedCircle/>}
 
       <div className="d-flex flex-column m-auto">

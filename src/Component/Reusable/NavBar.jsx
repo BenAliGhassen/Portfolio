@@ -13,7 +13,7 @@ import AdbIcon from '@mui/icons-material/Code';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import Brightness3Icon from '@mui/icons-material/Brightness3';
 import "../../Styles/NavbarStyle/hr.css";
-const pages = ['Profile', 'Proects', 'Resume'];
+const pages = ['Education', 'Experience', 'Projets'];
 
 
 function NavBar({setMode,mode}) {
