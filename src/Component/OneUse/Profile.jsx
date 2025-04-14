@@ -44,8 +44,17 @@ function Profile() {
       l’intelligence artificielle, le développement web et la cybersécurité. Fort d’expériences en développement Full Stack, j’ai conçu et optimisé des solutions web alliant performance, sécurité et expérience utilisateur.
       Je suis à la recherche d’une opportunité pour mettre en pratique mes compétences et contribuer à des projets innovants. Disponible pour un stage, un contrat d’apprentissage ou un CDI, je suis prêt à relever de nouveaux défis
        et à apporter une réelle valeur ajoutée à votre entreprise.</p>
+      <div> 
+        <a
+      href="/cv.pdf"
+      download
+      className="btn btn-primary w-25 mx-3"
+      >
+      telecharger CV
+    </a>
+       <a href="mailto:ghassenbenali2@gmail.com" className="btn btn-light w-25">Contacter Moi</a></div>
       </div>
-     
+      
     </div>
   )
 }
