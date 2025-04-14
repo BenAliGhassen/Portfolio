@@ -37,7 +37,7 @@ function Profile() {
       {screenWidth >= 768 ? <Image src={photo} alt='me' fluid/> : <Image src={photo2} alt='me' fluid roundedCircle/>}
 
       <div className="d-flex flex-column m-auto">
-      <h3 className='mt-md-5'>Profile</h3>
+      <h3 className='mt-md-5'>Ghassen Ben Ali</h3>
       <p className='mt-md-5'><b>Développeur Web Full Stack | IA & Sécurité Informatique</b>
       <br/>
       Diplômé en Informatique en juin 2024 et actuellement en Master en Sécurité des Systèmes et Infrastructure, je suis passionné par 
