@@ -46,11 +46,11 @@ function Profile() {
        et à apporter une réelle valeur ajoutée à votre entreprise.</p>
       <div> 
         <a
-      href="/cv.pdf"
+      href="/docs/Ghassen-Ben-Ali-CV.pdf"
       download
       className="btn btn-primary w-25 mx-3"
       >
-      telecharger CV
+      Télécharger CV
     </a>
        <a href="mailto:ghassenbenali2@gmail.com" className="btn btn-light w-25">Contacter Moi</a></div>
       </div>
