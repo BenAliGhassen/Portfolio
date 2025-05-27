@@ -12,45 +12,47 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Code';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import Brightness3Icon from '@mui/icons-material/Brightness3';
-import "../../Styles/NavbarStyle/hr.css";
-const pages = ['Education', 'Experience', 'Projets'];
+import '../../Styles/NavbarStyle/hr.css';
+import LangSwitcher from '../OneUse/LangSwitcher';
+import { useTranslation } from 'react-i18next';
 
+const pagesId = ['#Education', '#Experience', '#Projets'];
 
-function NavBar({setMode,mode}) {
+function NavBar({ setMode, mode }) {
+  const { t } = useTranslation();
+  const pagesObj = t('Navbar', { returnObjects: true });
+  const pages = Object.values(pagesObj);
 
-    const newMode = mode
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
 
-
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-const changeMode =()=>{
-    const newMode = localStorage.getItem('mode') === 'dark' ? 'light' : 'dark'; 
+  const changeMode = () => {
+    const newMode = localStorage.getItem('mode') === 'dark' ? 'light' : 'dark';
     setMode(newMode);
-}
+  };
 
   return (
-    <AppBar position="static" sx={{md: 'flex', flexWrap : 'wrap',backgroundColor :'black', marginBottom : '40px'}}>
-      <Container maxWidth="xl" sx={{backgroundColor :'black'}}>
+    <AppBar position="static" sx={{ backgroundColor: 'black', marginBottom: '40px' }}>
+      <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex', flexWrap : 'wrap', }, mr: 1,  }} />
+          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="#"
             sx={{
               mr: 2,
-              display: { xs: 'none', md: 'flex',  },
+              display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
-              fontWeight: {xs : 400,md : 700},
+              fontWeight: 700,
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
@@ -60,10 +62,11 @@ const changeMode =()=>{
             Ghassen Ben Ali
           </Typography>
 
-          <Box sx={{ flexGrow: 1 ,display: { xs: 'flex', md: 'none', flexWrap : 'wrap', }, }}>
+          {/* Mobile Menu */}
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
-              aria-label="account of current user"
+              aria-label="menu"
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
@@ -74,80 +77,78 @@ const changeMode =()=>{
             <Menu
               id="menu-appbar"
               anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
+              anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
               keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
+              transformOrigin={{ vertical: 'top', horizontal: 'left' }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{ display: { xs: 'block', md: 'none' } }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography sx={{ textAlign: 'center' }}>{page}</Typography>
+              {pages.map((page, index) => (
+                <MenuItem key={index} onClick={handleCloseNavMenu}>
+                  <a href={pagesId[index]} style={{ textDecoration: 'none', color: 'inherit' }}>
+                    <Typography textAlign="center">{page}</Typography>
+                  </a>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+
+          {/* Small screen branding */}
           <Typography
             variant="h5"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="#"
             sx={{
               mr: 2,
-              display: { xs: 'flex', md: 'none', flexWrap : 'wrap', },
+              display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
-              whiteSpace: { xs: 'normal', md: 'nowrap' },
-              wordBreak : {xs: 'break-word', md : 'normal'},
+              whiteSpace: 'nowrap',
             }}
           >
             Ghassen Ben Ali
           </Typography>
-          <Box sx={{ flexGrow: 1,color : 'black' ,display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+
+          {/* Desktop Menu */}
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+            {pages.map((page, index) => (
               <Button
-                key={page}
+                key={index}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block', }}
+                href={pagesId[index]}
+                sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
               </Button>
             ))}
           </Box>
-          
 
-          {newMode === 'dark' ? <WbSunnyIcon 
-            onClick={changeMode}
-            size="large"
-            aria-label="account of current user"
-            aria-controls="menu-appbar"
-            aria-haspopup="true"
-            color="inherit"
-          /> : 
-          <Brightness3Icon 
-          size="large"
-          aria-label="account of current user"
-          aria-controls="menu-appbar"
-          aria-haspopup="true"
-          onClick={changeMode}
-          color="inherit"
-          /> }
+          {/* Language Switcher and Theme Toggle */}
+          <LangSwitcher />
+          {mode === 'dark' ? (
+            <WbSunnyIcon
+              onClick={changeMode}
+              sx={{ ml: 2, cursor: 'pointer' }}
+              color="inherit"
+            />
+          ) : (
+            <Brightness3Icon
+              onClick={changeMode}
+              sx={{ ml: 2, cursor: 'pointer' }}
+              color="inherit"
+            />
+          )}
         </Toolbar>
       </Container>
-      <hr className='light'/>    
-      </AppBar>
+      <hr className="light" />
+    </AppBar>
   );
 }
+
 export default NavBar;

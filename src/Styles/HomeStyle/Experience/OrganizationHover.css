@@ -1,0 +1,45 @@
+.organization {
+    position: relative; /* for absolute positioning of hover-image */
+    cursor: pointer; /* optional */
+  }
+  
+  .hover-image {
+    position: absolute;
+    top: -1%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    width: 100px; 
+    height: 100px;
+    z-index: 10;
+  }
+  
+  .organization:hover .hover-image {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  
+
+
+  
+
+  @media (max-width : 768px){
+    .hover-image {
+     visibility: visible;
+    }
+    .hover-image {
+      opacity: 0;
+      animation: fadeIn 3s forwards;
+    }
+    
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  }

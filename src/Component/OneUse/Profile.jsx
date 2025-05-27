@@ -5,7 +5,14 @@ import Image from 'react-bootstrap/Image';
 import '../../Styles/HomeStyle/ProfileSection.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next';
 function Profile() {
+
+  const { t, i18n } = useTranslation();
+
+useEffect(()=>{
+  i18n.changeLanguage("en")
+},[i18n])
 
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
@@ -38,21 +45,18 @@ function Profile() {
 
       <div className="d-flex flex-column m-auto">
       <h3 className='mt-md-5'>Ghassen Ben Ali</h3>
-      <p className='mt-md-5'><b>Développeur Web Full Stack | IA & Sécurité Informatique</b>
+      <p className='mt-md-5'><b>{t('intro.title')}</b>
       <br/>
-      Diplômé en Informatique en juin 2024 et actuellement en Master en Sécurité des Systèmes et Infrastructure, je suis passionné par 
-      l’intelligence artificielle, le développement web et la cybersécurité. Fort d’expériences en développement Full Stack, j’ai conçu et optimisé des solutions web alliant performance, sécurité et expérience utilisateur.
-      Je suis à la recherche d’une opportunité pour mettre en pratique mes compétences et contribuer à des projets innovants. Disponible pour un stage, un contrat d’apprentissage ou un CDI, je suis prêt à relever de nouveaux défis
-       et à apporter une réelle valeur ajoutée à votre entreprise.</p>
+     {t('intro.text')}</p>
       <div> 
         <a
       href="/docs/Ghassen-Ben-Ali-CV.pdf"
       download
       className="btn btn-primary w-25 mx-3"
       >
-      Télécharger CV
+      {t("intro.btn1")}
     </a>
-       <a href="mailto:ghassenbenali2@gmail.com" className="btn btn-light w-25">Contacter Moi</a></div>
+       <a href="mailto:ghassenbenali2@gmail.com" className="btn btn-light w-25">{t("intro.btn2")}</a></div>
       </div>
       
     </div>

@@ -1,0 +1,84 @@
+{
+  "intro": {
+    "title": "Développeur Web Full Stack | IA & Sécurité Informatique",
+    "text": "Diplômé en Informatique en juin 2024 et actuellement en Master en Sécurité des Systèmes et Infrastructure, je suis passionné par l’intelligence artificielle, le développement web et la cybersécurité. Fort d’expériences en développement Full Stack, j’ai conçu et optimisé des solutions web alliant performance, sécurité et expérience utilisateur. Je suis à la recherche d’une opportunité pour mettre en pratique mes compétences et contribuer à des projets innovants. Disponible pour un stage, un contrat d’apprentissage ou un CDI, je suis prêt à relever de nouveaux défis et à apporter une réelle valeur ajoutée à votre entreprise.",
+    "btn1": "Télécharger CV",
+    "btn2": "Contacter Moi"
+  },
+  "projects": {
+    "title": "Projets",
+    "cards": [
+      {
+        "titre": "Parking Spot Detection",
+        "description": "Système intelligent de détection de places de parking disponibles à partir d’images capturées. Entraînement d’un modèle de deep learning pour identifier les emplacements libres.. Technologies : Python, OpenCV,"
+      },
+      {
+        "titre": "Medicapet",
+        "description": "Application web de gestion des factures, fiches clients et consultations. Implémentation d’un système de prise de rendez-vous en ligne. Hébergement et déploiement sur Hostinger. Maintenance et amélioration continue. Technologies : ReactJS, Laravel, MySQL, Git."
+      },
+      {
+        "titre": "E-Commerce",
+        "description": "Plateforme e-commerce pour automatiser les commandes et améliorer l’expérience client. Intégration d’un module NLP (traitement automatique du langage) pour personnaliser les recommandations produits. Technologies : ReactJS, Laravel, MongoDB, Flask, Scikit-learn, Git"
+      },
+      {
+        "titre": "Messi vs Betis",
+        "description": "Analyse des performances de Lionel Messi contre le Real Betis. Visualisations dynamiques et responsive. Technologies : python"
+      },
+      {
+        "titre": "Euro 2024 Stats",
+        "description": "Application web affichant les statistiques de l'Euro 2024 en temps réel. Technologies : python, streamlit"
+      },
+      {
+        "titre": "Football Rating Model",
+        "description": "Modèle de notation des performances de joueurs de football basé sur des critères statistiques. Présentation visuelle des résultats dans un tableau. Technologies : Python, Pandas, Scikit-learn, Matplotlib."
+      },
+      {
+        "titre": "Little Lemon",
+        "description": "Projet basé sur le défi Frontend Mentor \"Little Lemon\". Création d'une interface de restaurant avec menu, réservation et contact. Approche centrée sur le responsive design et la modularité. Technologies : ReactJS, CSS."
+      },
+      {
+        "titre": "Cinema Seats Reservation",
+        "description": "Application de réservation de sièges de cinéma simulée. Interface interactive permettant aux utilisateurs de choisir et réserver leurs places. Utilisation de JavaScript pour la logique et le DOM pour l'affichage dynamique. Technologies : HTML, CSS, JavaScript."
+      }
+    ]
+  },
+  "education": {
+    "title": "Éducation",
+    "degrees": [
+      "Master en Sécurité des Systèmes et Infrastructures Informatiques (SS2I)",
+      "Licence en Génie Logiciel et Systèmes d'Information (GLSI) avec mention Bien",
+      "Baccalauréat en Informatique avec mention Très Bien"
+    ],
+    "descriptions": [
+      "Formation spécialisée en cybersécurité, administration des systèmes et gestion des risques numériques. Acquisition de compétences avancées en protection des infrastructures informatiques et des données sensibles.",
+      "Parcours approfondi en développement logiciel, architecture des systèmes et intelligence artificielle. Expertise en programmation, bases de données et conception d'applications robustes.",
+      "Fondations en algorithmique, programmation et mathématiques appliquées. Introduction aux concepts fondamentaux des systèmes informatiques et des réseaux."
+    ]
+  },
+  "Experience": {
+    "title": "Expérience",
+    "cards": [
+      {
+        "titre": "Développeur Web Full Stack",
+      "description": "Conception et développement d’une application web de gestion de factures, fiches clients et consultations.\nMise en place d’un système de prise de rendez-vous en ligne pour améliorer l’expérience utilisateur.\nHébergement et déploiement sur Hostinger.\nMaintenance continue : corrections de bugs, optimisation des performances et ajout de nouvelles fonctionnalités selon les besoins clients.\nTechnologies : ReactJS, Laravel, MySQL, Git",
+      "date" : "Août 2024 - Présent" 
+    },
+      {
+        "titre": "Développeur Web Full Stack",
+        "description": "Création d’une plateforme e-commerce automatisant les commandes. /nAjout d’un module NLP pour personnaliser les recommandations produits./nTechnologies :ReactJS, Laravel, MongoDB, Flask, Scikit-learn, Git",
+        "date": "Février 2024 - Mai 2024"
+      }
+    ]
+  }
+  ,
+
+      "Organization" : {
+        "medianet" : "MEDIANET est une agence tunisienne spécialisée dans le marketing digital et la transformation numérique. Fondée en 1998, elle s'est imposée comme un acteur clé dans l'accompagnement des entreprises vers le digital, en Tunisie et à l'international.",
+        "medicapet" : "MedicaPet est une clinique vétérinaire située à La Marsa, en Tunisie. Elle offre une gamme complète de services médicaux pour les animaux de compagnie, incluant la médecine interne, la chirurgie, la vaccination et les soins d'urgence. L'équipe est composée de vétérinaires diplômés de l'École Nationale de Médecine Vétérinaire de Sidi Thabet, assistés d'une assistante qualifiée et d'un personnel expérimenté."
+      },
+      "Navbar" : {
+        "title1" : "Éducation" ,
+        "title2" : "Expérience" ,
+        "title3" : "Projets" 
+      }
+}

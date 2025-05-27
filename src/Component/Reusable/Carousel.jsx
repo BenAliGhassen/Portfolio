@@ -56,7 +56,7 @@ function CarouselComp({diplomes,description,univ,dates}) {
           <Slider {...settings}>
             {diplomes.map((diplome,index)=>(
                 <div>
-              <CardComp diplome={diplome} description={description[index]} univ={univ[index]} date={dates[index]}/>
+              <CardComp title={diplome} description={description[index]} organi={univ[index]} date={dates[index]}/>
                 </div>
             ))}
             

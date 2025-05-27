@@ -4,7 +4,7 @@ import '../../Styles/HomeStyle/Education/Carousel/Card.css'
 const ProjectsCard = ({titre,description,image}) => {
     return (
         <Card className="custom-card m-2">
-            <Card.Img variant="bottom" src={image} alt="université" className="card-image h-75" />
+            <Card.Img variant="bottom" src={image} alt="université" className="card-image h-50" />
         <Card.Body>
           <Card.Title className="card-title">{titre}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted card-subtitle"></Card.Subtitle>
