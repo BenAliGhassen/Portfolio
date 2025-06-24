@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import metaPro from '../../../images/Certif/MetaPro.jpeg'
-import metaIntro from '../../../images/Certif/meta intro.jpeg'
 import metaUXUI from '../../../images/Certif/metaUXUI.jpeg'
 import meta1_1 from '../../../images/Certif/meta1.1.jpeg'
 import meta1 from '../../../images/Certif/meta1.jpeg'
@@ -15,7 +14,7 @@ import '../../../Styles/HomeStyle/Certif/Meta.css'
 
 
 const images = [
-  metaIntro, metaUXUI, meta1_1, meta1, meta2,
+ metaUXUI, meta1_1, meta1, meta2,
   metaGit, metaJS, metaLast, metaProj,
   metaReact1, metaReact2
 ]
