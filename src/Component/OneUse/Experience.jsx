@@ -23,10 +23,10 @@ const Fnalert = (index)=>{
 
 
   return (
-    <div className="slider-container d-flex justify-content-center flex-wrap" id='Experience'>
-      <h2 className="m-5 w-100">Experience</h2>
-
-      {ExpData.map((exp, index) => (
+    <div className='container' id='Experience'>
+        <h2 className="m-4">Experience</h2>
+<div className="slider-container d-flex justify-content-center flex-wrap">
+ {ExpData.map((exp, index) => (
          <div key={index} className="organization" style={{ margin: '10px', position: 'relative' }}
          onClick={() => Fnalert(index)}
          >
@@ -54,6 +54,8 @@ const Fnalert = (index)=>{
          }
        </div>
       ))}
+</div>
+     
 
     </div>
   )

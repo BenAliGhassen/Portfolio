@@ -4,6 +4,7 @@ import Education from '../Component/OneUse/Education';
 import Projects from '../Component/OneUse/Projects';
 import Experience from '../Component/OneUse/Experience';
 import Skills from '../Component/OneUse/Skills';
+import Certif from '../Component/OneUse/Certif';
 function Home() {
 
 
@@ -17,6 +18,7 @@ function Home() {
      <Projects/>
      <Experience/>
      <Skills/>
+     <Certif/>
     </div>
   )
 }

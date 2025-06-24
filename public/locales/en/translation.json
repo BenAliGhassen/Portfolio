@@ -82,6 +82,13 @@
         "title1" : "Education" ,
         "title2" : "Experience" ,
         "title3" : "Projects" 
+      },
+
+      "Skills" : {
+        "title1" : "language" ,
+        "title2" : "Frameworks and Libraries" ,
+        "title3" : "Databases" ,
+        "title4" : "Tools & cloud"
       }
   }
   

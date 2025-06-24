@@ -1,16 +1,29 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
+import Langauge from './Skills/Langauge';
+import FrameWork from './Skills/FrameWork';
+import Data from './Skills/Data';
+import Outils from './Skills/Outils';
+import Frontend from './Skills/Frontend';
 function Skills() {
+
+
+  const { t, i18n } = useTranslation();
+
+useEffect(()=>{
+  i18n.changeLanguage("en")
+},[i18n])
   return (
-    <div>
+    <div className='container'>
 
         <h2 className='m-5'>Skills</h2>
-        <h4>Technique</h4>
-        <h5>FrontEnd</h5>
-        <h5>BackEnd</h5>
-        <h5>Data</h5>
-        <h5>outils</h5>
-        <h4>Soft</h4>
+        <div className='d-flex gap-5 flex-wrap'>
+      <Langauge t1={t("Skills.title1")}/>
+     <Frontend/>
+      <FrameWork t2={t("Skills.title2")} />
+      <Data t3={t("Skills.title3")} />
+      <Outils t4={t("Skills.title4")} />
+        </div>
     </div>
   )
 }

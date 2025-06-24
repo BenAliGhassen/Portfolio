@@ -80,5 +80,12 @@
         "title1" : "Éducation" ,
         "title2" : "Expérience" ,
         "title3" : "Projets" 
+      },
+
+      "Skills" : {
+        "title1" : "language" ,
+        "title2" : "Frameworks et bibliothèques" ,
+        "title3" : "Bases de données" ,
+        "title4" : "Outils & cloud"
       }
 }
