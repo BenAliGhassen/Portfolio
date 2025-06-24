@@ -1,0 +1,94 @@
+{
+    "intro": {
+      "title": "Full Stack Web Developer | AI & IT Security",
+      "text": "Graduated in Computer Science in June 2024 and currently pursuing a Master's in System Security and Infrastructure, I am passionate about artificial intelligence, web development, and cybersecurity. With Full Stack development experience, I have designed and optimized web solutions combining performance, security, and user experience. I am seeking an opportunity to apply my skills and contribute to innovative projects. Available for internships, apprenticeships, or permanent contracts, I am ready to take on new challenges and bring real value to your company.",
+    "btn1" : "Download CV" ,
+       "btn2" : "Contact Me"
+    },
+    "projects": {
+      "title": "Projects",
+      "cards": [
+        {
+          "titre": "Parking Spot Detection",
+          "description": "Intelligent system to detect available parking spots from captured images. Training a deep learning model to identify free spaces. Technologies: Python, OpenCV,"
+        },
+        {
+          "titre": "Medicapet",
+          "description": "Web application for managing invoices, client records, and consultations. Implementation of an online appointment booking system. Hosted and deployed on Hostinger. Continuous maintenance and improvements. Technologies: ReactJS, Laravel, MySQL, Git."
+        },
+        {
+          "titre": "E-Commerce",
+          "description": "E-commerce platform to automate orders and improve customer experience. Integration of an NLP (Natural Language Processing) module to personalize product recommendations. Technologies: ReactJS, Laravel, MongoDB, Flask, Scikit-learn, Git"
+        },
+        {
+          "titre": "Messi vs Betis",
+          "description": "Performance analysis of Lionel Messi against Real Betis. Dynamic and responsive visualizations. Technologies: Python"
+        },
+        {
+          "titre": "Euro 2024 Stats",
+          "description": "Web application displaying Euro 2024 statistics in real time. Technologies: Python, Streamlit"
+        },
+        {
+          "titre": "Football Rating Model",
+          "description": "Player performance rating model based on statistical criteria. Visual presentation of results in a table. Technologies: Python, Pandas, Scikit-learn, Matplotlib."
+        },
+        {
+          "titre": "Little Lemon",
+          "description": "Project based on the Frontend Mentor challenge \"Little Lemon.\" Creating a restaurant interface with menu, reservation, and contact. Focused on responsive design and modularity. Technologies: ReactJS, CSS."
+        },
+        {
+          "titre": "Cinema Seats Reservation",
+          "description": "Simulated cinema seat reservation application. Interactive interface allowing users to choose and book seats. Uses JavaScript for logic and DOM for dynamic display. Technologies: HTML, CSS, JavaScript."
+        }
+      ]
+    },
+    
+        "education": {
+          "title": "Education",
+
+         "degrees": [
+          "Master's in Systems Security and IT Infrastructure (SS2I)",
+          "Bachelor's in Software Engineering and Information Systems (GLSI) with Honors",
+          "High School Diploma in Computer Science with High Honors"
+],
+
+          "descriptions": [
+            "Specialized training in cybersecurity, system administration, and digital risk management. Acquired advanced skills in protecting IT infrastructures and sensitive data.",
+             "In-depth program in software development, system architecture, and artificial intelligence. Expertise in programming, databases, and robust application design.",
+            "Foundations in algorithms, programming, and applied mathematics. Introduction to fundamental concepts of computer systems and networks."
+          ]
+        },
+       "Experience": {
+  "title": "Experience",
+  "cards": [
+    {
+      "titre": "Full Stack Web Developer",
+      "description": "Design and development of a web application for managing invoices, client records, and consultations.\nImplementation of an online appointment booking system to enhance user experience.\nHosting and deployment on Hostinger.\nOngoing maintenance: bug fixes, performance optimization, and addition of new features based on client needs.\nTechnologies: ReactJS, Laravel, MySQL, Git",
+      "date": "August 2024 - Present"
+    },
+    {
+      "titre": "Full Stack Web Developer Intern",
+      "description": "Development of an e-commerce platform to automate orders.\nIntegration of an NLP module to personalize product recommendations.\nTechnologies: ReactJS, Laravel, MongoDB, Flask, Scikit-learn, Git",
+      "date": "February 2024 - May 2024"
+    }
+  ]
+},
+
+      "Organization" : {
+        "medianet" : "MEDIANET is a Tunisian agency specializing in digital marketing and digital transformation. Founded in 1998, it has established itself as a key player in assisting businesses towards digitalization, both in Tunisia and internationally.",
+        "medicapet" : "MedicaPet is a veterinary clinic located in La Marsa, Tunisia. It offers a comprehensive range of medical services for pets, including internal medicine, surgery, vaccination, and emergency care. The team consists of veterinarians graduated from the National School of Veterinary Medicine of Sidi Thabet, assisted by a qualified assistant and experienced staff"
+      },
+      "Navbar" : {
+        "title1" : "Education" ,
+        "title2" : "Experience" ,
+        "title3" : "Projects" 
+      },
+
+      "Skills" : {
+        "title1" : "language" ,
+        "title2" : "Frameworks and Libraries" ,
+        "title3" : "Databases" ,
+        "title4" : "Tools & cloud"
+      }
+  }
+  
