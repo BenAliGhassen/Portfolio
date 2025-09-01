@@ -50,8 +50,8 @@ useEffect(()=>{
       <div> 
       <a
   href={process.env.PUBLIC_URL + (i18n.language === 'en'
-    ? "/docs/Ben-Ali-Ghassen-CV.pdf"
-    : "/docs/Ghassen-Ben-Ali-CV.pdf")}
+    ? "https://benalighassen.github.io/Portfolio/docs/Ben-Ali-Ghassen-CV.pdf"
+    : "https://benalighassen.github.io/Portfolio/docs/Ghassen-Ben-Ali-CV.pdf")}
   download
   className="btn btn-primary w-25 mx-3"
 >
