@@ -37,7 +37,6 @@ useEffect(()=>{
     };
   }, []);
 
-  
 
   return (
     <div className='container mt-5 ProfileText ProfileStyle' data-aos="fade-right">
@@ -50,7 +49,7 @@ useEffect(()=>{
      {t('intro.text')}</p>
       <div> 
         <a
-      href="/docs/Ghassen-Ben-Ali-CV.pdf"
+      href={i18n.language === 'en'?  "/docs/Ben-Ali-Ghassen-CV.pdf" : "/docs/Ghassen-Ben-Ali-CV.pdf"}
       download
       className="btn btn-primary w-25 mx-3"
       >
