@@ -48,14 +48,17 @@ useEffect(()=>{
       <br/>
      {t('intro.text')}</p>
       <div> 
-        <a
-      href={i18n.language === 'en'? "https://benalighassen.github.io/Portfolio/docs/Ben-Ali-Ghassen-CV.pdf"
-    : "https://benalighassen.github.io/Portfolio/docs/Ghassen-Ben-Ali-CV.pdf"}
-      download
-      className="btn btn-primary w-25 mx-3"
-      >
-      {t("intro.btn1")}
-    </a>
+    <a
+  href={
+    i18n.language === 'en'
+      ? process.env.PUBLIC_URL + "/docs/Ben-Ali-Ghassen-CV.pdf"
+      : process.env.PUBLIC_URL + "/docs/Ghassen-Ben-Ali-CV.pdf"
+  }
+  download
+  className="btn btn-primary w-25 mx-3"
+>
+  {t("intro.btn1")}
+</a>
        <a href="mailto:ghassenbenali2@gmail.com" className="btn btn-light w-25">{t("intro.btn2")}</a></div>
       </div>
       
