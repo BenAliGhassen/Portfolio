@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.7e950951.css",
-    "main.js": "/Portfolio/static/js/main.ce003a0c.js",
+    "main.js": "/Portfolio/static/js/main.bb61a60b.js",
     "static/js/453.f6db74a7.chunk.js": "/Portfolio/static/js/453.f6db74a7.chunk.js",
     "static/js/38.774297de.chunk.js": "/Portfolio/static/js/38.774297de.chunk.js",
     "static/media/parkingSpots.png": "/Portfolio/static/media/parkingSpots.a16843273a4a6cba8461.png",
@@ -31,7 +31,9 @@
     "static/media/cine.png": "/Portfolio/static/media/cine.0e628f5ff34ce15816e9.png",
     "static/media/LM.png": "/Portfolio/static/media/LM.81797e1fc24e7660aa6f.png",
     "static/media/lka.jpg": "/Portfolio/static/media/lka.9d4769e82b4e193161c8.jpg",
+    "static/media/certifCisco.png": "/Portfolio/static/media/certifCisco.8bce6340703be48d629f.png",
     "static/media/Photo_Pro.png": "/Portfolio/static/media/Photo_Pro.492c8311562aed2bd1aa.png",
+    "static/media/certifNet1.png": "/Portfolio/static/media/certifNet1.8c71966041f81f859372.png",
     "static/media/pfe.png": "/Portfolio/static/media/pfe.12eecfd6ef70106ee186.png",
     "static/media/rate1.png": "/Portfolio/static/media/rate1.d6463c6fbe7904c43a89.png",
     "static/media/clickme.png": "/Portfolio/static/media/clickme.16b664bb1a2341f76ceb.png",
@@ -43,12 +45,12 @@
     "static/media/Photo_Prohf.png": "/Portfolio/static/media/Photo_Prohf.231f286cc8f74a370ef0.png",
     "index.html": "/Portfolio/index.html",
     "main.7e950951.css.map": "/Portfolio/static/css/main.7e950951.css.map",
-    "main.ce003a0c.js.map": "/Portfolio/static/js/main.ce003a0c.js.map",
+    "main.bb61a60b.js.map": "/Portfolio/static/js/main.bb61a60b.js.map",
     "453.f6db74a7.chunk.js.map": "/Portfolio/static/js/453.f6db74a7.chunk.js.map",
     "38.774297de.chunk.js.map": "/Portfolio/static/js/38.774297de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e950951.css",
-    "static/js/main.ce003a0c.js"
+    "static/js/main.bb61a60b.js"
   ]
 }
