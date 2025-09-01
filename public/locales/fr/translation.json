@@ -65,7 +65,7 @@
     },
       {
         "titre": "Développeur Web Full Stack",
-        "description": "Création d’une plateforme e-commerce automatisant les commandes. /nAjout d’un module NLP pour personnaliser les recommandations produits./nTechnologies :ReactJS, Laravel, MongoDB, Flask, Scikit-learn, Git",
+        "description": "Création d’une plateforme e-commerce automatisant les commandes. Ajout d’un module NLP pour personnaliser les recommandations produits.Technologies :ReactJS, Laravel, MongoDB, Flask, Scikit-learn, Git",
         "date": "Février 2024 - Mai 2024"
       }
     ]

@@ -4,6 +4,7 @@ import cyber from '../../../images/Certif/cyber.jpeg'
 import gCyber from '../../../images/Certif/googleCyber.jpeg'
 import gCyber1 from '../../../images/Certif/GoogleCyber1.jpeg'
 import gNetcyber from '../../../images/Certif/GoogleNetSec.jpeg'
+import CiscoCyber1 from '../../../images/Certif/certifCisco.png'
 
 import '../../../Styles/HomeStyle/Certif/Meta.css'
 
@@ -11,7 +12,7 @@ import '../../../Styles/HomeStyle/Certif/Meta.css'
 function Cyber() {
   const [selectedImage, setSelectedImage] = useState(null)
 
-  const images = [cyber, gCyber, gCyber1, gNetcyber]
+  const images = [cyber, gCyber, gCyber1, gNetcyber, CiscoCyber1]
 
   return (
     <div>

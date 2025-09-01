@@ -4,11 +4,11 @@ import angular from '../../../images/Certif/Angular.jpeg'
 import WP from '../../../images/Certif/wordPress.jpeg'
 import IBMJS from '../../../images/Certif/meta intro.jpeg'
 import '../../../Styles/HomeStyle/Certif/Meta.css'
-
+import net1 from '../../../images/Certif/certifNet1.png'
 const Other = () => {
     const [selectedImage, setSelectedImage] = useState(null)
 
-    const images = [IBMJS,angular, WP]
+    const images = [IBMJS,angular, WP, net1]
 
     return (
         <div>
