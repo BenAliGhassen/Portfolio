@@ -60,7 +60,7 @@
     "cards": [
       {
         "titre": "Développeur Web Full Stack",
-      "description": "Conception et développement d’une application web de gestion de factures, fiches clients et consultations.\nMise en place d’un système de prise de rendez-vous en ligne pour améliorer l’expérience utilisateur.\nHébergement et déploiement sur Hostinger.\nMaintenance continue : corrections de bugs, optimisation des performances et ajout de nouvelles fonctionnalités selon les besoins clients.\nTechnologies : ReactJS, Laravel, MySQL, Git",
+      "description": "Conception et développement d’une application web de gestion de factures, fiches clients et consultations.Mise en place d’un système de prise de rendez-vous en ligne pour améliorer l’expérience utilisateur.Hébergement et déploiement sur Hostinger.Maintenance continue : corrections de bugs, optimisation des performances et ajout de nouvelles fonctionnalités selon les besoins clients.Technologies : ReactJS, Laravel, MySQL, Git",
       "date" : "Août 2024 - Présent" 
     },
       {
