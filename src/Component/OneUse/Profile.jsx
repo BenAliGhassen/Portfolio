@@ -49,7 +49,7 @@ useEffect(()=>{
      {t('intro.text')}</p>
       <div> 
         <a
-      href={i18n.language === 'en'?  "docs/Ben-Ali-Ghassen-CV.pdf" : "docs/Ghassen-Ben-Ali-CV.pdf"}
+      href={i18n.language === 'en'?  "https://benalighassen.github.io/Portfolio/docs/Ben-Ali-Ghassen-CV.pdf" : "https://benalighassen.github.io/Portfolio/docs/Ghassen-Ben-Ali-CV.pdf"}
       download
       className="btn btn-primary w-25 mx-3"
       >

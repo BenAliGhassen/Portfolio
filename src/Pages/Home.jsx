@@ -5,6 +5,7 @@ import Projects from '../Component/OneUse/Projects';
 import Experience from '../Component/OneUse/Experience';
 import Skills from '../Component/OneUse/Skills';
 import Certif from '../Component/OneUse/Certif';
+import Footer from '../Component/Reusable/Footer';
 function Home() {
 
 
@@ -19,6 +20,7 @@ function Home() {
      <Experience/>
      <Skills/>
      <Certif/>
+     <Footer/>
     </div>
   )
 }
