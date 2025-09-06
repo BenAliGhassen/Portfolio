@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7e950951.css",
-    "main.js": "/Portfolio/static/js/main.f2b50935.js",
+    "main.css": "/Portfolio/static/css/main.bccbf6a3.css",
+    "main.js": "/Portfolio/static/js/main.2ac0dca2.js",
     "static/js/453.f6db74a7.chunk.js": "/Portfolio/static/js/453.f6db74a7.chunk.js",
     "static/js/38.774297de.chunk.js": "/Portfolio/static/js/38.774297de.chunk.js",
     "static/media/parkingSpots.png": "/Portfolio/static/media/parkingSpots.a16843273a4a6cba8461.png",
@@ -41,16 +41,17 @@
     "static/media/clickme2.png": "/Portfolio/static/media/clickme2.d4a974e78000bcb32bfa.png",
     "static/media/messi.png": "/Portfolio/static/media/messi.137299baed74f483a6b3.png",
     "static/media/isi.jpg": "/Portfolio/static/media/isi.e588c89922cae002541f.jpg",
+    "static/media/react.png": "/Portfolio/static/media/react.f2f9d741f9d5cc42116b.png",
     "static/media/bayer.png": "/Portfolio/static/media/bayer.4e88ef616600188ee98f.png",
     "static/media/Photo_Prohf.png": "/Portfolio/static/media/Photo_Prohf.231f286cc8f74a370ef0.png",
     "index.html": "/Portfolio/index.html",
-    "main.7e950951.css.map": "/Portfolio/static/css/main.7e950951.css.map",
-    "main.f2b50935.js.map": "/Portfolio/static/js/main.f2b50935.js.map",
+    "main.bccbf6a3.css.map": "/Portfolio/static/css/main.bccbf6a3.css.map",
+    "main.2ac0dca2.js.map": "/Portfolio/static/js/main.2ac0dca2.js.map",
     "453.f6db74a7.chunk.js.map": "/Portfolio/static/js/453.f6db74a7.chunk.js.map",
     "38.774297de.chunk.js.map": "/Portfolio/static/js/38.774297de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e950951.css",
-    "static/js/main.f2b50935.js"
+    "static/css/main.bccbf6a3.css",
+    "static/js/main.2ac0dca2.js"
   ]
 }
