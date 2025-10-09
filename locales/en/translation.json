@@ -1,5 +1,5 @@
 {
-   "intro": {
+    "intro": {
       "title": "Full Stack Developer with Cybersecurity Focus",
       "text": "Graduated in Computer Science in June 2024 and currently pursuing a Master's in System Security and Infrastructure,  currently deepening skills in network defense, ethical hacking, and security auditing. I am a person who is always searching for the best solution, learning new thing and try to do my best at every task.Looking for an internship in cybersecurity/offensive security/SOC/pentesting. I am ready to take on new challenges and bring real value to your company.",
     "btn1" : "Download CV" ,
@@ -88,8 +88,7 @@
         "title1" : "language" ,
         "title2" : "Frameworks and Libraries" ,
         "title3" : "Databases" ,
-        "title4" : "Tools & cloud",
-        "title5" : "Security Tools"
+        "title4" : "Tools & cloud"
       }
   }
   
