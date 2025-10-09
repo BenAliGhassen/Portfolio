@@ -5,6 +5,7 @@ import FrameWork from './Skills/FrameWork';
 import Data from './Skills/Data';
 import Outils from './Skills/Outils';
 import Frontend from './Skills/Frontend';
+import Security from './Skills/Security';
 function Skills() {
 
 
@@ -23,6 +24,7 @@ useEffect(()=>{
       <FrameWork t2={t("Skills.title2")} />
       <Data t3={t("Skills.title3")} />
       <Outils t4={t("Skills.title4")} />
+      <Security t5={t("Skills.title5")} />
         </div>
     </div>
   )
