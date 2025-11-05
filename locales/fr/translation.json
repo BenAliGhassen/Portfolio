@@ -8,6 +8,10 @@
   "projects": {
     "title": "Projets",
     "cards": [
+       {
+        "titre": "DefiKoura",
+        "description": "DefiKoura est un jeu quiz amusant et interactif où les joueurs s’affrontent en répondant à des questions sur le football. Développé de A à Z, il allie design épuré, gameplay dynamique, Technologies: Reactjs, Python, Github,"
+      },
       {
         "titre": "Parking Spot Detection",
         "description": "Système intelligent de détection de places de parking disponibles à partir d’images capturées. Entraînement d’un modèle de deep learning pour identifier les emplacements libres.. Technologies : Python, OpenCV,"
