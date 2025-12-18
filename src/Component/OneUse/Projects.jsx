@@ -9,6 +9,7 @@ import cine from '../../images/cine.png';
 import pfe from '../../images/pfe.png';
 import LM from '../../images/LM.png';
 import Dk from '../../images/DefiKoura.png'
+import graylog from '../../images/graylog.png'
 import { useTranslation } from 'react-i18next';
 
 export default function Projects() {
@@ -18,6 +19,7 @@ export default function Projects() {
   const projets = Array.isArray(projetsData) ? projetsData : Object.values(projetsData);
 
   const images = [
+    graylog,
     Dk,
     parking,
     medicapet,

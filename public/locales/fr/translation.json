@@ -8,7 +8,11 @@
   "projects": {
     "title": "Projets",
     "cards": [
-       {
+      {
+      "titre": "système centralisé de gestion des journaux",
+      "description": "un système centralisé de gestion des journaux qui surveille l’activité des serveurs en temps réel. L’une des principales fonctionnalités est l’envoi automatique d’alertes par e-mail déclenchées par des événements critiques tels que des tentatives de force brute SSH ou d’autres activités suspectes. Technologies : Linux, Graylog"
+      },
+      {
         "titre": "DefiKoura",
         "description": "DefiKoura est un jeu quiz amusant et interactif où les joueurs s’affrontent en répondant à des questions sur le football. Développé de A à Z, il allie design épuré, gameplay dynamique, Technologies: Reactjs, Python, Github,"
       },
