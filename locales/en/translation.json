@@ -8,6 +8,10 @@
     "projects": {
       "title": "Projects",
       "cards": [
+        {
+          "titre": "centralized log management system",
+          "description": "a centralized log management system that monitors server activity in real time. One of the key features I configured was automated email alerts triggered by critical events—such as SSH brute-force attempts or other suspicious activities., Technologies: Linux, Network, graylog,"
+        },
          {
           "titre": "DefiKoura",
           "description": "DefiKoura is a fun and interactive quiz game where players compete by answering football-related questions. Developed from scratch, it combines clean design, dynamic gameplay, Technologies: Reactjs, Python, Github,"
