@@ -1,100 +1,107 @@
 {
   "intro": {
-    "title": "Développeur Full Stack avec orientation Cyber sécurité",
-    "text": "Développeur web avec orientation Cyber sécurité Je suis passionné par le développement sécurisé, je suis quelqu'un qui recherche toujours la meilleure solution, qui apprend sans cesse de nouvelles choses et qui essaie de donner le meilleur de moi-même dans chaque tâche. Je cherche un défi ou je peut mettre en pratique mes compétences.",
-    "btn1": "Télécharger CV",
-    "btn2": "Contacter Moi"
+    "title": "Développeur Full Stack, sécurisé dès la conception",
+    "text": "Je conçois des logiciels sécurisés dès la conception, pas sécurisés après coup. Développeur full stack junior (React, Java/Spring Boot, Django) titulaire d'un Master en Sécurité des Systèmes d'Information et des Infrastructures, je livre chaque fonctionnalité via des pipelines CI/CD intégrant des tests de sécurité. Ouvert aux postes full stack et à la mobilité internationale.",
+    "btn1": "Télécharger le CV",
+    "btn2": "Me contacter"
   },
   "projects": {
     "title": "Projets",
     "cards": [
       {
-      "titre": "système centralisé de gestion des journaux",
-      "description": "un système centralisé de gestion des journaux qui surveille l’activité des serveurs en temps réel. L’une des principales fonctionnalités est l’envoi automatique d’alertes par e-mail déclenchées par des événements critiques tels que des tentatives de force brute SSH ou d’autres activités suspectes. Technologies : Linux, Graylog"
+        "titre": "Plateforme IA de reporting d'audits de sécurité",
+        "description": "Plateforme qui génère automatiquement les rapports d'audit de sécurité grâce à l'IA, réalisée pendant mon stage de fin d'études chez SOTETEL. Contrôle d'accès basé sur les rôles (4 rôles utilisateurs) et pipeline CI/CD exécutant Snyk (SAST), OWASP ZAP (DAST) et Trivy (scan de conteneurs) à chaque commit. Technologies : React, TypeScript, Django, PostgreSQL, Docker, Nginx, GitHub Actions"
+      },
+      {
+        "titre": "Système de gestion centralisée des logs",
+        "description": "Système de gestion centralisée des logs qui surveille l'activité des serveurs en temps réel. J'ai configuré des alertes e-mail automatiques déclenchées par des événements critiques, comme les attaques SSH par force brute et d'autres activités suspectes. Technologies : Graylog, Linux, Réseaux"
       },
       {
         "titre": "DefiKoura",
-        "description": "DefiKoura est un jeu quiz amusant et interactif où les joueurs s’affrontent en répondant à des questions sur le football. Développé de A à Z, il allie design épuré, gameplay dynamique, Technologies: Reactjs, Python, Github,"
+        "description": "Jeu de quiz interactif sur le football où les joueurs s'affrontent en répondant à des questions. Développé de A à Z, avec un design épuré et un gameplay dynamique. Technologies : React, Python, GitHub"
       },
       {
-        "titre": "Parking Spot Detection",
-        "description": "Système intelligent de détection de places de parking disponibles à partir d’images capturées. Entraînement d’un modèle de deep learning pour identifier les emplacements libres.. Technologies : Python, OpenCV,"
+        "titre": "Détection de places de parking",
+        "description": "Système intelligent qui détecte les places de parking disponibles sur des images, grâce à un modèle de deep learning entraîné à repérer les places libres. Technologies : Python, OpenCV"
       },
       {
         "titre": "Medicapet",
-        "description": "Application web de gestion des factures, fiches clients et consultations. Implémentation d’un système de prise de rendez-vous en ligne. Hébergement et déploiement sur Hostinger. Maintenance et amélioration continue. Technologies : ReactJS, Laravel, MySQL, Git."
+        "description": "Application web de gestion des factures, dossiers clients et consultations d'une clinique vétérinaire, avec un système de prise de rendez-vous en ligne. Hébergée et déployée sur Hostinger, avec maintenance et améliorations continues. Technologies : React, Laravel, MySQL, Git"
       },
       {
         "titre": "E-Commerce",
-        "description": "Plateforme e-commerce pour automatiser les commandes et améliorer l’expérience client. Intégration d’un module NLP (traitement automatique du langage) pour personnaliser les recommandations produits. Technologies : ReactJS, Laravel, MongoDB, Flask, Scikit-learn, Git"
+        "description": "Plateforme e-commerce qui automatise les commandes et améliore l'expérience client, avec un module NLP qui personnalise les recommandations de produits. Technologies : React, Laravel, MongoDB, Flask, scikit-learn, Git"
       },
       {
         "titre": "Messi vs Betis",
-        "description": "Analyse des performances de Lionel Messi contre le Real Betis. Visualisations dynamiques et responsive. Technologies : python"
+        "description": "Analyse des performances de Lionel Messi face au Real Betis, présentée à travers des visualisations dynamiques et responsives. Technologies : Python"
       },
       {
         "titre": "Euro 2024 Stats",
-        "description": "Application web affichant les statistiques de l'Euro 2024 en temps réel. Technologies : python, streamlit"
+        "description": "Application web affichant les statistiques de l'Euro 2024 en temps réel. Technologies : Python, Streamlit"
       },
       {
-        "titre": "Football Rating Model",
-        "description": "Modèle de notation des performances de joueurs de football basé sur des critères statistiques. Présentation visuelle des résultats dans un tableau. Technologies : Python, Pandas, Scikit-learn, Matplotlib."
+        "titre": "Modèle de notation football",
+        "description": "Modèle de notation des performances des joueurs basé sur des critères statistiques, avec une présentation visuelle des résultats sous forme de tableau. Technologies : Python, Pandas, scikit-learn, Matplotlib"
       },
       {
         "titre": "Little Lemon",
-        "description": "Projet basé sur le défi Frontend Mentor \"Little Lemon\". Création d'une interface de restaurant avec menu, réservation et contact. Approche centrée sur le responsive design et la modularité. Technologies : ReactJS, CSS."
+        "description": "Interface de restaurant basée sur le challenge « Little Lemon », avec menu, réservation et page de contact. Accent sur le design responsive et la modularité. Technologies : React, CSS"
       },
       {
-        "titre": "Cinema Seats Reservation",
-        "description": "Application de réservation de sièges de cinéma simulée. Interface interactive permettant aux utilisateurs de choisir et réserver leurs places. Utilisation de JavaScript pour la logique et le DOM pour l'affichage dynamique. Technologies : HTML, CSS, JavaScript."
+        "titre": "Réservation de places de cinéma",
+        "description": "Application de réservation de places de cinéma avec une interface interactive pour choisir et réserver ses sièges, utilisant JavaScript et le DOM pour la logique et l'affichage dynamique. Technologies : HTML, CSS, JavaScript"
       }
     ]
   },
   "education": {
-    "title": "Éducation",
+    "title": "Formation",
     "degrees": [
-      "Master en Sécurité des Systèmes et Infrastructures Informatiques (SS2I)",
-      "Licence en Génie Logiciel et Systèmes d'Information (GLSI) avec mention Bien",
-      "Baccalauréat en Informatique avec mention Très Bien"
+      "Master en Sécurité des Systèmes d'Information et des Infrastructures (SSII)",
+      "Licence en Génie Logiciel et Systèmes d'Information (GLSI), Mention Bien",
+      "Baccalauréat en Informatique, Mention Très Bien"
     ],
     "descriptions": [
-      "Formation spécialisée en cybersécurité, administration des systèmes et gestion des risques numériques. Acquisition de compétences avancées en protection des infrastructures informatiques et des données sensibles.",
-      "Parcours approfondi en développement logiciel, architecture des systèmes et intelligence artificielle. Expertise en programmation, bases de données et conception d'applications robustes.",
-      "Fondations en algorithmique, programmation et mathématiques appliquées. Introduction aux concepts fondamentaux des systèmes informatiques et des réseaux."
+      "Spécialisation en cybersécurité, administration systèmes et gestion des risques numériques : sécurisation des infrastructures IT et protection des données sensibles.",
+      "Développement logiciel, architecture des systèmes, bases de données et intelligence artificielle, avec un accent sur la conception d'applications robustes.",
+      "Bases en algorithmique, programmation et mathématiques appliquées, avec une introduction aux systèmes informatiques et aux réseaux."
     ]
   },
   "Experience": {
     "title": "Expérience",
     "cards": [
       {
-        "titre": "Développeur Web Full Stack",
-      "description": "Conception et développement d’une application web de gestion de factures, fiches clients et consultations.Mise en place d’un système de prise de rendez-vous en ligne pour améliorer l’expérience utilisateur.Hébergement et déploiement sur Hostinger.Maintenance continue : corrections de bugs, optimisation des performances et ajout de nouvelles fonctionnalités selon les besoins clients.Technologies : ReactJS, Laravel, MySQL, Git",
-      "date" : "Août 2024 - Présent" 
-    },
+        "titre": "Stagiaire de fin d'études – DevSecOps & IA",
+        "description": "Développé une plateforme assistée par IA qui automatise la génération des rapports d'audit de sécurité, validée en conditions de production avec 5 utilisateurs.\nSécurisé l'accès de 4 rôles utilisateurs grâce à un RBAC avec isolation des données sur l'API REST.\nIntégré les tests de sécurité à chaque commit via un pipeline CI/CD GitHub Actions : SAST (Snyk), DAST (OWASP ZAP) et scan de conteneurs (Trivy).\nConteneurisé et déployé la plateforme avec Docker et Nginx.\nTechnologies : React, TypeScript, Django, PostgreSQL, Docker, Nginx, GitHub Actions",
+        "date": "Janvier 2026 - Juin 2026"
+      },
       {
-        "titre": "Développeur Web Full Stack",
-        "description": "Création d’une plateforme e-commerce automatisant les commandes. Ajout d’un module NLP pour personnaliser les recommandations produits.Technologies :ReactJS, Laravel, MongoDB, Flask, Scikit-learn, Git",
+        "titre": "Développeur Full Stack Freelance",
+        "description": "Livré en production en moins de 2 mois une plateforme complète de gestion vétérinaire : factures, dossiers clients et consultations.\nDéveloppé un système de prise de rendez-vous en ligne pour les clients de la clinique.\nDigitalisé la facturation de 72 consultations par jour ; la plateforme a été utilisée quotidiennement par la clinique pendant un an.\nHébergement et déploiement sur Hostinger, avec corrections de bugs, optimisations de performance et nouvelles fonctionnalités tout au long de la mission.\nTechnologies : React, Laravel, MySQL, Git",
+        "date": "Août 2024 - Mars 2025"
+      },
+      {
+        "titre": "Stagiaire de fin d'études – Full Stack & IA",
+        "description": "Développé de bout en bout une plateforme e-commerce complète pour automatiser les commandes et améliorer l'expérience client.\nIntégré un module NLP (scikit-learn, API Flask) pour personnaliser les recommandations de produits.\nLivré en 8 sprints Agile avec revues hebdomadaires et revue de code sur Git.\nTechnologies : React, Laravel, MongoDB, Flask, scikit-learn, Git",
         "date": "Février 2024 - Mai 2024"
       }
     ]
+  },
+  "Organization": {
+    "sotetel": "SOTETEL (Société Tunisienne d'Entreprises de Télécommunications) est une entreprise tunisienne d'ingénierie et d'infrastructures de télécommunications, cotée à la Bourse de Tunis.",
+    "medianet": "MEDIANET est une agence tunisienne spécialisée en marketing digital et en transformation numérique. Fondée en 1998, elle accompagne les entreprises dans leur digitalisation, en Tunisie et à l'international.",
+    "medicapet": "MedicaPet est une clinique vétérinaire située à La Marsa, en Tunisie, qui propose médecine interne, chirurgie, vaccination et urgences pour animaux de compagnie. Ses vétérinaires sont diplômés de l'École Nationale de Médecine Vétérinaire de Sidi Thabet."
+  },
+  "Navbar": {
+    "title1": "Formation",
+    "title2": "Expérience",
+    "title3": "Projets"
+  },
+  "Skills": {
+    "title1": "Langages",
+    "title2": "Frameworks et bibliothèques",
+    "title3": "Bases de données",
+    "title4": "Outils et Cloud",
+    "title5": "Outils de sécurité"
   }
-  ,
-
-      "Organization" : {
-        "medianet" : "MEDIANET est une agence tunisienne spécialisée dans le marketing digital et la transformation numérique. Fondée en 1998, elle s'est imposée comme un acteur clé dans l'accompagnement des entreprises vers le digital, en Tunisie et à l'international.",
-        "medicapet" : "MedicaPet est une clinique vétérinaire située à La Marsa, en Tunisie. Elle offre une gamme complète de services médicaux pour les animaux de compagnie, incluant la médecine interne, la chirurgie, la vaccination et les soins d'urgence. L'équipe est composée de vétérinaires diplômés de l'École Nationale de Médecine Vétérinaire de Sidi Thabet, assistés d'une assistante qualifiée et d'un personnel expérimenté."
-      },
-      "Navbar" : {
-        "title1" : "Éducation" ,
-        "title2" : "Expérience" ,
-        "title3" : "Projets" 
-      },
-
-      "Skills" : {
-        "title1" : "language" ,
-        "title2" : "Frameworks et bibliothèques" ,
-        "title3" : "Bases de données" ,
-        "title4" : "Outils & cloud",
-        "title5" : "Outils de sécurité"
-      }
 }
