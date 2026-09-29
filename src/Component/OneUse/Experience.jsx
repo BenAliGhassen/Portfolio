@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import medianet from '../../images/medianet.png';
 import medicapet from '../../images/medicapetLg.png';
+import sotetel from '../../images/sotetel.jpg'
 import clickme from '../../images/clickme.png';
 import clickme2 from '../../images/clickme2.png';
 import CardComp from '../Reusable/Card';
@@ -14,13 +15,23 @@ function Experience() {
   const ExpDataRaw = t('Experience.cards', { returnObjects: true });
   const ExpData = Array.isArray(ExpDataRaw) ? ExpDataRaw : Object.values(ExpDataRaw);
 
-  const images = [medicapet, medianet];
+  const images = [sotetel,medicapet, medianet];
   const pageLanguage = i18n.language;
 
   const Fnalert = (index) => {
-    index === 0
-      ? Swal.fire(t('Organization.medicapet'))
-      : Swal.fire(t('Organization.medianet'));
+    switch (index) {
+      case 0:
+        Swal.fire(t('Organization.sotetel'));
+        break;
+      case 1:
+        Swal.fire(t('Organization.medicapet'));
+        break;
+      case 2:
+        Swal.fire(t('Organization.medianet'));
+        break;
+      default:
+        Swal.fire("");
+    }
   };
 
   return (

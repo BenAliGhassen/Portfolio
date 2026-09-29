@@ -1,103 +1,107 @@
 {
-   "intro": {
-      "title": "Full Stack Developer with Cybersecurity Focus",
-      "text": "Full-stack developer with a focus on cybersecurity I am passionate about secure development. I am someone who always seeks the best solution, constantly learns new things, and tries to give my best in every task. I am looking for a challenge where I can put my skills into practice.",
-    "btn1" : "Download CV" ,
-       "btn2" : "Contact Me"
-    },
-    "projects": {
-      "title": "Projects",
-      "cards": [
-        {
-          "titre": "centralized log management system",
-          "description": "a centralized log management system that monitors server activity in real time. One of the key features I configured was automated email alerts triggered by critical events—such as SSH brute-force attempts or other suspicious activities., Technologies: Linux, Network, graylog,"
-        },
-         {
-          "titre": "DefiKoura",
-          "description": "DefiKoura is a fun and interactive quiz game where players compete by answering football-related questions. Developed from scratch, it combines clean design, dynamic gameplay, Technologies: Reactjs, Python, Github,"
-        },
-        {
-          "titre": "Parking Spot Detection",
-          "description": "Intelligent system to detect available parking spots from captured images. Training a deep learning model to identify free spaces. Technologies: Python, OpenCV,"
-        },
-        {
-          "titre": "Medicapet",
-          "description": "Web application for managing invoices, client records, and consultations. Implementation of an online appointment booking system. Hosted and deployed on Hostinger. Continuous maintenance and improvements. Technologies: ReactJS, Laravel, MySQL, Git."
-        },
-        {
-          "titre": "E-Commerce",
-          "description": "E-commerce platform to automate orders and improve customer experience. Integration of an NLP (Natural Language Processing) module to personalize product recommendations. Technologies: ReactJS, Laravel, MongoDB, Flask, Scikit-learn, Git"
-        },
-        {
-          "titre": "Messi vs Betis",
-          "description": "Performance analysis of Lionel Messi against Real Betis. Dynamic and responsive visualizations. Technologies: Python"
-        },
-        {
-          "titre": "Euro 2024 Stats",
-          "description": "Web application displaying Euro 2024 statistics in real time. Technologies: Python, Streamlit"
-        },
-        {
-          "titre": "Football Rating Model",
-          "description": "Player performance rating model based on statistical criteria. Visual presentation of results in a table. Technologies: Python, Pandas, Scikit-learn, Matplotlib."
-        },
-        {
-          "titre": "Little Lemon",
-          "description": "Project based on the Frontend Mentor challenge \"Little Lemon.\" Creating a restaurant interface with menu, reservation, and contact. Focused on responsive design and modularity. Technologies: ReactJS, CSS."
-        },
-        {
-          "titre": "Cinema Seats Reservation",
-          "description": "Simulated cinema seat reservation application. Interactive interface allowing users to choose and book seats. Uses JavaScript for logic and DOM for dynamic display. Technologies: HTML, CSS, JavaScript."
-        }
-      ]
-    },
-    
-        "education": {
-          "title": "Education",
-
-         "degrees": [
-          "Master's in Systems Security and IT Infrastructure (SS2I)",
-          "Bachelor's in Software Engineering and Information Systems (GLSI) with Honors",
-          "High School Diploma in Computer Science with High Honors"
-],
-
-          "descriptions": [
-            "Specialized training in cybersecurity, system administration, and digital risk management. Acquired advanced skills in protecting IT infrastructures and sensitive data.",
-             "In-depth program in software development, system architecture, and artificial intelligence. Expertise in programming, databases, and robust application design.",
-            "Foundations in algorithms, programming, and applied mathematics. Introduction to fundamental concepts of computer systems and networks."
-          ]
-        },
-       "Experience": {
-  "title": "Experience",
-  "cards": [
-    {
-      "titre": "Full Stack Web Developer",
-      "description": "Design and development of a web application for managing invoices, client records, and consultations.\nImplementation of an online appointment booking system to enhance user experience.\nHosting and deployment on Hostinger.\nOngoing maintenance: bug fixes, performance optimization, and addition of new features based on client needs.\nTechnologies: ReactJS, Laravel, MySQL, Git",
-      "date": "August 2024 - Present"
-    },
-    {
-      "titre": "Full Stack Web Developer Intern",
-      "description": "Development of an e-commerce platform to automate orders.\nIntegration of an NLP module to personalize product recommendations.\nTechnologies: ReactJS, Laravel, MongoDB, Flask, Scikit-learn, Git",
-      "date": "February 2024 - May 2024"
-    }
-  ]
-},
-
-      "Organization" : {
-        "medianet" : "MEDIANET is a Tunisian agency specializing in digital marketing and digital transformation. Founded in 1998, it has established itself as a key player in assisting businesses towards digitalization, both in Tunisia and internationally.",
-        "medicapet" : "MedicaPet is a veterinary clinic located in La Marsa, Tunisia. It offers a comprehensive range of medical services for pets, including internal medicine, surgery, vaccination, and emergency care. The team consists of veterinarians graduated from the National School of Veterinary Medicine of Sidi Thabet, assisted by a qualified assistant and experienced staff"
+  "intro": {
+    "title": "Full-Stack Developer, Secure by Design",
+    "text": "I build software that's secure by design, not secured as an afterthought. I'm a junior full-stack developer (React, Java/Spring Boot, Django) with a Master's in Information Systems & Infrastructure Security, and I ship features through CI/CD pipelines with security testing built in. Open to full-stack roles and to relocation.",
+    "btn1": "Download CV",
+    "btn2": "Contact Me"
+  },
+  "projects": {
+    "title": "Projects",
+    "cards": [
+      {
+        "titre": "AI Security Audit Reporting Platform",
+        "description": "Platform that uses AI to generate security audit reports automatically, built during my end-of-studies internship at SOTETEL. Role-based access control across 4 user roles, and a CI/CD pipeline running Snyk (SAST), OWASP ZAP (DAST) and Trivy (container scanning) on every commit. Technologies: React, TypeScript, Django, PostgreSQL, Docker, Nginx, GitHub Actions"
       },
-      "Navbar" : {
-        "title1" : "Education" ,
-        "title2" : "Experience" ,
-        "title3" : "Projects" 
+      {
+        "titre": "Centralized Log Management System",
+        "description": "Centralized log management system that monitors server activity in real time. I configured automated email alerts triggered by critical events, such as SSH brute-force attempts and other suspicious activity. Technologies: Graylog, Linux, Networking"
       },
-
-      "Skills" : {
-        "title1" : "language" ,
-        "title2" : "Frameworks and Libraries" ,
-        "title3" : "Databases" ,
-        "title4" : "Tools & cloud",
-        "title5" : "Security Tools"
+      {
+        "titre": "DefiKoura",
+        "description": "Interactive football quiz game where players compete by answering football questions. Built from scratch, with a clean design and dynamic gameplay. Technologies: React, Python, GitHub"
+      },
+      {
+        "titre": "Parking Spot Detection",
+        "description": "Intelligent system that detects available parking spots in captured images, using a deep learning model trained to identify free spaces. Technologies: Python, OpenCV"
+      },
+      {
+        "titre": "Medicapet",
+        "description": "Web application for managing a veterinary clinic's invoices, client records and consultations, with an online appointment booking system. Hosted and deployed on Hostinger, with continuous maintenance and improvements. Technologies: React, Laravel, MySQL, Git"
+      },
+      {
+        "titre": "E-Commerce",
+        "description": "E-commerce platform that automates orders and improves the customer experience, with an NLP module that personalises product recommendations. Technologies: React, Laravel, MongoDB, Flask, scikit-learn, Git"
+      },
+      {
+        "titre": "Messi vs Betis",
+        "description": "Performance analysis of Lionel Messi against Real Betis, presented through dynamic, responsive visualisations. Technologies: Python"
+      },
+      {
+        "titre": "Euro 2024 Stats",
+        "description": "Web application displaying Euro 2024 statistics in real time. Technologies: Python, Streamlit"
+      },
+      {
+        "titre": "Football Rating Model",
+        "description": "Player performance rating model based on statistical criteria, with results presented in a clear visual table. Technologies: Python, Pandas, scikit-learn, Matplotlib"
+      },
+      {
+        "titre": "Little Lemon",
+        "description": "Restaurant interface based on the \"Little Lemon\" challenge, with menu, reservation and contact pages. Focused on responsive design and modular components. Technologies: React, CSS"
+      },
+      {
+        "titre": "Cinema Seats Reservation",
+        "description": "Cinema seat reservation app with an interactive interface for choosing and booking seats, using JavaScript and the DOM for the logic and dynamic display. Technologies: HTML, CSS, JavaScript"
       }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "degrees": [
+      "Master's in Information Systems and Infrastructure Security (SSII)",
+      "Bachelor's in Software Engineering and Information Systems (GLSI), with Honors",
+      "Baccalaureate in Computer Science, with Highest Honors (Mention Très Bien)"
+    ],
+    "descriptions": [
+      "Specialised in cybersecurity, system administration and digital risk management: securing IT infrastructures and protecting sensitive data.",
+      "Software development, system architecture, databases and artificial intelligence, with a focus on robust application design.",
+      "Foundations in algorithms, programming and applied mathematics, with an introduction to computer systems and networks."
+    ]
+  },
+  "Experience": {
+    "title": "Experience",
+    "cards": [
+      {
+        "titre": "DevSecOps & AI Intern (End-of-Studies)",
+        "description": "Built an AI-assisted platform that automates security audit report generation, validated in a production-like setup with 5 users.\nSecured access for 4 user roles with RBAC and role-based data isolation across the REST API.\nEmbedded security testing into every commit with a GitHub Actions CI/CD pipeline: SAST (Snyk), DAST (OWASP ZAP) and container scanning (Trivy).\nContainerised and deployed the platform with Docker and Nginx.\nTechnologies: React, TypeScript, Django, PostgreSQL, Docker, Nginx, GitHub Actions",
+        "date": "January 2026 - June 2026"
+      },
+      {
+        "titre": "Freelance Full-Stack Developer",
+        "description": "Delivered a complete veterinary management platform to production in under 2 months: invoices, client records and consultations.\nBuilt an online appointment booking system for the clinic's clients.\nDigitised billing for 72 consultations per day; the platform was used daily by the clinic for one year.\nHosted and deployed on Hostinger, with bug fixes, performance improvements and new features throughout the engagement.\nTechnologies: React, Laravel, MySQL, Git",
+        "date": "August 2024 - March 2025"
+      },
+      {
+        "titre": "Full-Stack & AI Intern (End-of-Studies)",
+        "description": "Built a complete e-commerce platform end to end to automate orders and improve the customer experience.\nIntegrated an NLP module (scikit-learn, Flask API) to personalise product recommendations.\nDelivered over 8 Agile sprints with weekly reviews and Git-based code review.\nTechnologies: React, Laravel, MongoDB, Flask, scikit-learn, Git",
+        "date": "February 2024 - May 2024"
+      }
+    ]
+  },
+  "Organization": {
+    "sotetel": "SOTETEL (Société Tunisienne d'Entreprises de Télécommunications) is a Tunisian telecommunications engineering and infrastructure company, listed on the Tunis Stock Exchange.",
+    "medianet": "MEDIANET is a Tunisian agency specialising in digital marketing and digital transformation. Founded in 1998, it helps businesses in Tunisia and internationally with their digitalisation.",
+    "medicapet": "MedicaPet is a veterinary clinic in La Marsa, Tunisia, offering internal medicine, surgery, vaccination and emergency care for pets. Its veterinarians are graduates of the National School of Veterinary Medicine of Sidi Thabet."
+  },
+  "Navbar": {
+    "title1": "Education",
+    "title2": "Experience",
+    "title3": "Projects"
+  },
+  "Skills": {
+    "title1": "Languages",
+    "title2": "Frameworks & Libraries",
+    "title3": "Databases",
+    "title4": "Tools & Cloud",
+    "title5": "Security Tools"
   }
-  
+}
